@@ -19,9 +19,9 @@ export default {
         color: '#0081ff',
         marginRight: 12,
     },
-    characterContainer: {
-        backgroundColor: 'red',
-        padding: '10%',
+    common: {
+        color: '#fff',
+        marginRight: 12,
     },
     backgroundImage: {
         zIndex: -1,
@@ -36,7 +36,7 @@ export default {
         color: '#FFF',
     },
     tooltipContainer: {
-        padding: '8px 4px',
+        backgroundColor: '#black',
     },
     tooltipSlotAndMaterial: {
         display: 'flex',
@@ -58,13 +58,16 @@ export default {
         justifyContent: 'center',
     },
     bossImage: {
-        marginTop: 20,
-        width: 150,
-        height: 150,
-        border: '2px solid #FFF',
+        width: 24,
     },
     dropedByContainer: {
         display: 'flex',
         justifyContent: 'space-between',
+        marginTop: 6,
+    },
+    bossImageText: {
+        fontFamily: 'impact',
+        fontSize: 12,
+        verticalAlign: 'middle',
     },
 }

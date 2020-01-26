@@ -14,7 +14,7 @@ const App: React.FC = (props: any) => {
     const classes = useStyles()
 
     return (
-        <div style={{ fontFamily: 'impact' }}>
+        <div className={classes.container}>
             <BrowserRouter>
                 <Header />
                 <Switch>
