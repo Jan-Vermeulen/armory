@@ -1,9 +1,7 @@
 export default {
-    mainContainer: {},
     container: {
         marginTop: 30,
     },
-    link: {},
     slot: {
         display: 'flex',
         marginBottom: 24,
@@ -34,9 +32,6 @@ export default {
     },
     ilvl: {
         color: '#FFF',
-    },
-    tooltipContainer: {
-        backgroundColor: '#black',
     },
     tooltipSlotAndMaterial: {
         display: 'flex',

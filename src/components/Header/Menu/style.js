@@ -1,6 +1,9 @@
 export default {
-    container: {
+    tabs: {
         height: 60,
         backgroundColor: '#111',
+    },
+    label: {
+        color: '#fff',
     },
 }

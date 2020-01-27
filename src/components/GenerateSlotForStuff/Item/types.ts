@@ -1,0 +1,32 @@
+export type ItemStats = {
+    image: string
+    name: string
+    rarity: string
+    alt: string
+    ilvl: number
+    binding: string
+    unique: boolean
+    slot: string
+    material: string
+    armor: number
+    stats: string[]
+    specialStats: string[]
+    setName: string
+    setParts: string[]
+    setEffects: string[]
+    dropedBy: string[]
+    durability: string
+    lvl: number
+    link: string
+    damage: string
+    speed: string
+    dps: string
+    str: number
+    stam: number
+    agi: number
+    intel: number
+    crit: number
+    dodge: number
+    hit: number
+    proc: never
+}
